@@ -10,4 +10,44 @@ body {
   font-size: 14px;
   line-height: 1.4; }
 
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto; }
+  nav .logo img {
+    padding: 5px 5px 5px 0px; }
+  nav .nav-menu ul {
+    display: flex; }
+    nav .nav-menu ul li {
+      position: relative; }
+      nav .nav-menu ul li a {
+        padding: 20px;
+        display: block;
+        color: #000;
+        font-weight: bold; }
+      nav .nav-menu ul li a:hover {
+        background-color: cornsilk;
+        transition: 0.6s; }
+    nav .nav-menu ul ul {
+      position: absolute;
+      top: 100%;
+      background-color: cornsilk;
+      display: none; }
+      nav .nav-menu ul ul li {
+        width: 200px; }
+        nav .nav-menu ul ul li a:hover {
+          background-color: gainsboro; }
+
 /*# sourceMappingURL=main.css.map */
